@@ -15,9 +15,42 @@ h2 {
     font-size: 1.5em;
 }
 
+main {
+    border: 2px solid black;
+    width: 70vw;
+    margin: auto;
+    padding: 1rem; 
+}
+
+section {
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
 p {
     font-family: serif;
     font-size: 1em;
+}
+
+figure {
+    margin: auto;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+table {
+    margin: auto;
+    box-sizing: border-box;
+    width: 60%;
 }
 
 .green {
@@ -26,6 +59,22 @@ p {
 
 .blue {
     background-color: lightblue;
+}
+
+.major_header {
+    width: 50vw;
+}
+
+.horizontal-list-inline {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.horizontal-list-inline li {
+    display: inline-block;
+    padding: 1rem;
 }
 
 #craft_of_the_month {
