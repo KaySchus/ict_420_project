@@ -17,16 +17,12 @@ h2 {
 
 main {
     border: 2px solid black;
-    width: 70vw;
+    width: 75%;
     margin: auto;
-    padding: 1rem; 
 }
 
 section {
     width: 100%;
-    margin: auto;
-    padding: 1rem;
-    box-sizing: border-box;
 }
 
 header {
@@ -37,20 +33,27 @@ header {
 p {
     font-family: serif;
     font-size: 1em;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 figure {
-    margin: auto;
-    padding: 1rem;
+    border: 5px solid lightcyan;
     width: 100%;
+    padding: 1rem;
     text-align: center;
     box-sizing: border-box;
+    margin: auto;
 }
 
 table {
     margin: auto;
-    box-sizing: border-box;
     width: 60%;
+}
+
+ol {
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 .green {
@@ -79,6 +82,5 @@ table {
 
 #craft_of_the_month {
     background-color: black;
-    width: 50vw;
-    margin: auto;
+    width: 100%;
 }
