@@ -5,6 +5,7 @@ html {
 h1, h2, h3 {
     font-weight: bold;
     font-family: "Arial", "Verdana", sans-serif;
+    text-align: center;
 }
 
 h1 {
@@ -36,7 +37,6 @@ section {
 
 header {
     width: 100%;
-    text-align: center;
 }
 
 p {
