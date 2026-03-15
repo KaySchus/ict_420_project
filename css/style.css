@@ -1,5 +1,6 @@
 html {
     font-size: 100%;
+    background: linear-gradient(white, gray);
 }
 
 h1, h2, h3 {
@@ -47,7 +48,6 @@ p {
 }
 
 figure {
-    border: 5px solid lightcyan;
     width: 100%;
     padding: 1rem;
     text-align: center;
@@ -63,14 +63,16 @@ table {
 ol {
     padding-left: 4rem;
     padding-right: 4rem;
+    list-style-position: inside;
+    list-style-type: circle;
 }
 
 .green {
-    background-color: lightgreen;
+    background: linear-gradient(to right, teal, lightgreen, teal);
 }
 
 .blue {
-    background-color: lightblue;
+    background: linear-gradient(to right, aliceblue, lightblue, aliceblue);
 }
 
 .major_header {
@@ -90,6 +92,7 @@ ol {
 }
 
 #craft_of_the_month {
-    background-color: black;
+    background-color: darkslategray;
     width: 100%;
+    opacity: 70%;
 }
