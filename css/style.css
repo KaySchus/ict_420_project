@@ -40,6 +40,20 @@ header {
     width: 100%;
 }
 
+a {
+    color: #ffffff;            
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border 0.3s;
+    text-shadow: 1px 1px 2px black;
+}
+
+a:hover {
+    color: green;
+    border-bottom: 2px solid darkolivegreen;
+}
+
 p {
     font-size: 1rem;
     line-height: 1.5;
@@ -76,7 +90,16 @@ ol {
 }
 
 .major_header {
-    width: 50vw;
+    width: 75%;
+    margin: 0 auto;
+    background: linear-gradient(lightseagreen 5%, gray);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    border-bottom: 4px solid darkolivegreen;
+    border-left: 4px solid darkolivegreen;
+    border-right: 4px solid darkolivegreen;
+    text-shadow: 1px 1px 2px black;
 }
 
 .horizontal-list-inline {
