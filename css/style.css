@@ -119,3 +119,12 @@ ol {
     width: 100%;
     opacity: 70%;
 }
+
+#flexed_content {
+    display: flex;
+    flex: 1;
+}
+
+#flexed_content > article {
+    width: 50%;
+}
