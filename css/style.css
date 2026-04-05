@@ -32,14 +32,6 @@ main {
     margin: auto;
 }
 
-section {
-    width: 100%;
-}
-
-header {
-    width: 100%;
-}
-
 a {
     color: #ffffff;            
     font-weight: bold;
@@ -127,9 +119,11 @@ ol {
 
 #flexed_content {
     display: flex;
-    flex: 1;
+    gap: 50px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 #flexed_content > article {
-    width: 50%;
+    flex: 1 1 0%;
 }
