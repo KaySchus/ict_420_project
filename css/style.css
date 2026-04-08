@@ -29,7 +29,10 @@ body {
 
 main {
     border: 2px solid black;
-    width: max(75%, 800px);
+}
+
+main, .major_header {
+    width: min(95%, 75vw + 80px);
     margin-inline: auto;
 }
 
@@ -88,8 +91,6 @@ ol {
 }
 
 .major_header {
-    width: max(75%, 800px);
-    margin: 0 auto;
     background: linear-gradient(lightseagreen 5%, gray);
     color: white;
     padding: 2rem 0;
@@ -147,5 +148,5 @@ ol {
 }
 
 #flexed_content > article {
-    flex: 1 1 500px;
+    flex: 1 1 clamp(300px, 100%, 500px);;
 }
