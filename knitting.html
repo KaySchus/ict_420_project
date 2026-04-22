@@ -21,29 +21,71 @@
         {
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "url": "https://kayschus.github.io/ict_420_project/knitting.html",
-            "name": "The Two-Needle Tradition, a Beginner's Guide to Knitting",
+            "name": "Crochet - A Beginner’s Guide",
+            "url": "https://kayschus.github.io/ict_420_project/crochet.html",
+            "description": "An introductory guide to knitting, covering essential tools for a starter kit and foundational terminology.",
+            "genre": "Crafts",
+            "learningResourceType": "Guide",
+            "keywords": "yarn, knitting, needles, stitches, loops, beginner knitting",
             "author": {
                 "@type": "Person",
-                "name": "Kaleb Schuster",
-                "jobTitle": "Student/Creator", 
-                "url": "https://github.com/KaySchus/ict_420_project"
+                "name": "Kaleb Schuster"
             },
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://kayschus.github.io/ict_420_project/"
+
+            "isPartOf": {
+                "@type": "WebSite",
+                "name": "Yarn Crafts - ICT 420",
+                "url": "https://kayschus.github.io/ict_420_project/"
             },
-            "description": "A webpage detailing the art of knitting",
-            "genre": "Crafts",
-            "keywords": [ "knitting, yarn crafts, DIY, textile arts" ],
-            "learningResourceType": "Guide",
-            "about": [
+            "mainEntity": {
+                "@type": "HowTo",
+                "name": "Getting Started with Knitting",
+                "description": "Learn the basics of knitting, including the necessary tools and foundational stitches.",
+                "tool": [
+                    { "@type": "HowToTool", "name": "Knitting Needles" },
+                    { "@type": "HowToTool", "name": "Scissors" },
+                    { "@type": "HowToTool", "name": "Tapestry Needle" },
+                    { "@type": "HowToTool", "name": "Stitch Rings" }
+                ],
+                "supply": [
+                    { "@type": "HowToSupply", "name": "Medium weight yarn (Weight 4)" }
+                ],
+                "hasPart": [
+                    { "@type": "CreativeWork", "name": "Cast On (CO)" },
+                    { "@type": "CreativeWork", "name": "Bind Off (BO)" },
+                    { "@type": "CreativeWork", "name": "Slip Stitch (sl)" },
+                    { "@type": "CreativeWork", "name": "Knit Stitch (k)" },
+                    { "@type": "CreativeWork", "name": "Purl Stitch (p)" }
+                ]
+            },
+            "primaryImageOfPage": {
+                "@type": "ImageObject",
+                "url": "https://kayschus.github.io/ict_420_project/media/knitting-large.jpg",
+                "caption": "A pair of knitting needles with loops cast on sitting on some yarn."
+            },
+            "breadcrumb": {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
                 {
-                    "@type": "Thing",
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://kayschus.github.io/ict_420_project/index.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Crochet",
+                    "item": "https://kayschus.github.io/ict_420_project/crochet.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
                     "name": "Knitting",
-                    "sameAs": "https://en.wikipedia.org/wiki/Knitting"
+                    "item": "https://kayschus.github.io/ict_420_project/knitting.html"
                 }
-            ]
+                ]
+            }
         }
     </script>
 </head>
